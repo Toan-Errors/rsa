@@ -3,6 +3,7 @@ import Calc from "./components/Calc";
 import './App.css';
 import Footer from "./components/Footer";
 import SwapKey from "./components/SwapKey";
+import TableXY from "./components/TableXY";
 
 function App() {
   const [p, setP] = useState();
@@ -30,9 +31,10 @@ function App() {
       }
       <hr style={{margin: '50px'}} />
       <SwapKey />
+      <hr style={{margin: '50px'}} />
+      <TableXY />
       <Footer />
     </div>
-
   );
 }
 
