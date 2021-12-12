@@ -78,6 +78,8 @@ function GCD(p, q) {
 }
 
 function kiemtra(m, mx){
+  console.log(m, mx);
+  console.log(m === mx);
   if(m === mx) {
      return <li>Do m ban đầu và m sau khi được thẩm tra bằng nhau nên Chữ ký đúng</li>
   } else {

@@ -2,6 +2,7 @@ import { useState } from "react";
 import Calc from "./components/Calc";
 import './App.css';
 import Footer from "./components/Footer";
+import SwapKey from "./components/SwapKey";
 
 function App() {
   const [p, setP] = useState();
@@ -9,7 +10,7 @@ function App() {
 
   return (
     <div class="App">
-      <h1>Tạo chữ ký số RSA phục vụ bài thi</h1>
+      <h1 class="title">Tạo chữ ký số RSA phục vụ bài thi</h1>
       <div class="form">
         <table>
           <tr>
@@ -27,9 +28,11 @@ function App() {
       {
         p && q ? <Calc p={p} q={q} /> : null
       }
-
+      <hr style={{margin: '50px'}} />
+      <SwapKey />
       <Footer />
     </div>
+
   );
 }
 

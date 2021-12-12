@@ -126,3 +126,18 @@ body{
         width: 100%;
     }
 }
+
+.title{
+    font-size: large;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #042647;
+}
+
+.swapkey{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
